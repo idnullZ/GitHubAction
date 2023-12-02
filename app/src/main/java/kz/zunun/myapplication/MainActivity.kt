@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
 
         var counter by mutableStateOf(0)
 
-
         setContent {
             Box(modifier = Modifier.fillMaxSize()) {
                 Button(
